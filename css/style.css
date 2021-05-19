@@ -1,0 +1,439 @@
+html{
+	background-color: #AC72D6;
+}
+.negro{
+	background-color: black;
+}
+.blanco{
+	background-color: white;
+}
+.amarillo{
+	background-color: yellow;
+}
+.azul{
+	background-color: blue;
+}
+.rojo{
+	background-color: red;
+}
+.verde{
+	background-color: green;
+}
+.purpura{
+	background-color: #AC72D6;
+}
+.imagenes{
+	background-color: white;
+	height: 250px;
+	width: 200%;
+}
+.header{
+	background-color: #AC72D6;
+	background-image: url("../imagenes/banner.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	border-width: -1px;
+}
+#header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px 20px;
+    font-size: 20px;
+    margin-left: 2%;
+
+    overflow: hidden;
+}
+.wrapper{
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+.borde{
+	border-bottom-width: auto;
+	border-bottom-style: solid;
+	border-color: white;
+}
+nav{
+	display: flex;
+	justify-content: left;
+
+	font-family: Metropolis;
+	font-weight: bold;
+}
+header nav a{
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	padding: 10px 20px;
+	line-height: normal;
+	border-radius: 50px;
+
+	-webkit-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+header nav a:hover {
+	background: #855DA8;
+	color: #D9AEFF;
+	text-decoration: none;
+	display: inline-block;
+}
+.banner{
+	background-image: url("../imagenes/banner.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+/*******************************/
+
+body{
+	background-color: #AC72D6;
+}
+.trivino{
+	height: 450px;
+	border-radius: 100%;
+	border-color: white;
+	border-style: double;
+	border-width: 15px;
+
+	display: block;
+	margin: auto;
+	margin-top: -11%;
+}
+.imagen1{
+	background-image: url("../imagenes/body1.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: auto;
+	background-position: center;
+	border-width: -1px;
+}
+/*************************Modal*/
+.modalContainer {
+	display: none; 
+	position: fixed; 
+	z-index: 1;
+	padding-top: 100px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%; 
+	overflow: auto; 
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.4);
+}
+
+.modalContainer .modal-content {
+	background-color: #bc8fc4;
+	margin: auto;
+	padding: 20px;
+	width: 60%;
+	color:white;
+}
+
+.modalContainer .close {
+	color: #aaaaaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.modalContainer .close:hover,
+.modalContainer .close:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+.VMas{
+	background-color: rgba(0,0,0,0);
+	border-style: none;
+	border: none;
+	border-radius: 0px;
+	display: block;
+	margin: auto;
+	margin-top: -2.3%;
+	outline: none;
+}
+.ModalBanner{
+	height: 20px;
+	display: block;
+	background-image: url("../imagenes/banner2.jpg");
+	background-color: purple;
+	background-attachment: fixed;
+	background-position: top center;
+	background-size: auto;
+	background-repeat: no-repeat;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: black;
+
+}
+/************************XModal*/
+/***********************Hobbies*/
+.Hobbies{
+	color: white;
+	display: block;
+	margin: auto;
+	text-align: center;
+
+	background-image: url("../imagenes/body1-2.jpg");
+	background-attachment: fixed;
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.HB1{
+	height: 250px;
+	background-image: url("../imagenes/body1-2.jpg");
+	background-attachment: fixed;
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-color: white;
+	border-width: 1.25px;
+}
+.HB2{
+	height: 250px;
+	background-image: url("../imagenes/body1-2.jpg");
+	background-attachment: fixed;
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-left-style: solid;
+	border-bottom-style: solid;
+	border-color: white;
+	border-width: 1.25px;
+}
+.HB3{
+	height: 250px;
+	background-image: url("../imagenes/body1-2.jpg");
+	background-attachment: fixed;
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-right-style: solid;
+	border-top-style: solid;
+	border-color: white;
+	border-width: 1.25px;
+}
+.HB4{
+	height: 250px;
+	background-image: url("../imagenes/body1-2.jpg");
+	background-attachment: fixed;
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-left-style: solid;
+	border-top-style: solid;
+	border-color: white;
+	border-width: 1.25px;
+}
+.Icon1{
+	padding: 0px;
+	padding-left: 60px;
+	margin: 0px;
+	height: 50px;
+
+	background-image: url("../imagenes/Iconos/Volumen1.png");
+	background-repeat: no-repeat;
+	background-size: 50px;
+	background-position:top left;
+	color: rgba(255,255,255,0);
+
+	transition: color 0.75s,background-image 0.75s;
+	transition-timing-function: ease-out;
+}
+.Icon1:hover{
+	background-image: url("../imagenes/Iconos/Volumen2.png");
+	background-repeat: no-repeat;
+	background-size: 50px;
+	background-position:top left;
+	color: rgba(255,255,255,255);
+
+	transition: color 0.75s, background-image 0.75s;
+	transition-timing-function: ease-out; 
+}
+
+.Icon2{
+	padding: 0px;
+	padding-left: 60px;
+	margin: 0px;
+	height: 60px;
+
+	background-image: url("../imagenes/Iconos/Emociones1.png");
+	background-repeat: no-repeat;
+	background-size: 50px;
+	background-position:top left;
+	color: rgba(255,255,255,0);
+
+	transition: color 0.75s,background-image 0.75s;
+	transition-timing-function: ease-out;
+}
+.Icon2:hover{
+	background-image: url("../imagenes/Iconos/Emociones2.png");
+	background-repeat: no-repeat;
+	background-size: 50px;
+	background-position:top left;
+	color: rgba(255,255,255,255);
+
+	transition: color 0.75s, background-image 0.75s;
+	transition-timing-function: ease-out; 
+}
+
+.Icon3{
+	padding: 0px;
+	padding-left: 60px;
+	margin: 0px;
+	height: 60px;
+
+	background-image: url("../imagenes/Iconos/Up1.png");
+	background-repeat: no-repeat;
+	background-size: 40px;
+	background-position:top left;
+	color: rgba(255,255,255,0);
+
+	transition: color 0.75s,background-image 0.75s;
+	transition-timing-function: ease-out;
+}
+.Icon3:hover{
+	background-image: url("../imagenes/Iconos/Up2.png");
+	background-repeat: no-repeat;
+	background-size: 40px;
+	background-position:top left;
+	color: rgba(255,255,255,255);
+
+	transition: color 0.75s, background-image 0.75s;
+	transition-timing-function: ease-out; 
+}
+
+.Icon4{
+	padding: 0px;
+	padding-left: 60px;
+	margin: 0px;
+	height: 60px;
+
+	background-image: url("../imagenes/Iconos/Lista1.png");
+	background-repeat: no-repeat;
+	background-size: 40px;
+	background-position:top left;
+	color: rgba(255,255,255,0);
+
+	transition: color 0.75s,background-image 0.75s;
+	transition-timing-function: ease-out;
+}
+.Icon4:hover{
+	background-image: url("../imagenes/Iconos/Lista2.png");
+	background-repeat: no-repeat;
+	background-size: 40px;
+	background-position:top left;
+	color: rgba(255,255,255,255);
+
+	transition: color 0.75s, background-image 0.75s;
+	transition-timing-function: ease-out; 
+}
+/**********************XHobbies*/
+
+.body2{
+	background-image: url("../imagenes/body2.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+/***********************Habilidades*/
+
+.barr{
+	height: 100%; 
+	background-color: white;
+	float: left;
+	transition: opacity 0.75s;
+}
+.barr:hover{
+	opacity: 50%;
+	transition: opacity 0.75s;
+}
+
+.h1{
+	background-image: url("../imagenes/Iconos/_c_aillustrator.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.h2{
+	background-image: url("../imagenes/Iconos/_c_photoshop.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.h3{
+	background-image: url("../imagenes/Iconos/_c_premiere.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.h4{
+	background-image: url("../imagenes/Iconos/_d_css3.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.h5{
+	background-image: url("../imagenes/Iconos/_d_html5.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.h6{
+	background-image: url("../imagenes/Iconos/_d_unity.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+/**********************XHabilidades*/
+/***********************Habilidades*/
+footer{
+	background-image: url("../imagenes/footer.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: bottom;
+}
+.facebook{
+	background-image: url("../imagenes/iconos/facebook.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 90px;
+}
+/**********************XHabilidades*/
+h1{
+	display: flex;
+	justify-content: left;
+
+	font-size: auto;
+	font-weight: bold;
+	font-family: Metropolis;
+}
+h2{
+	display: flex;
+	justify-content: left;
+
+	font-family: Metropolis;
+}
+h3{
+	display: flex;
+	justify-content: left;
+
+	font-size: 20px;
+	font-weight: lighter;
+	font-family: Metropolis;
+}
+p, li{
+	display: flex;
+	text-align: center;
+
+	color: white;
+	font-size: 20px;
+	font-weight: medium;
+	font-family: Metropolis;
+}
+li{
+	font-size: 18px;
+}
