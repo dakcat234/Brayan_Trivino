@@ -357,32 +357,32 @@ body{
 }
 
 .h1{
-	background-image: url("../imagenes/iconos/_c_aillustrator.png");
+	background-image: url("../imagenes/iconos/caillustrator.png");
 	background-repeat: no-repeat;
 	background-position: center;
 }
 .h2{
-	background-image: url("../imagenes/iconos/_c_photoshop.png");
+	background-image: url("../imagenes/iconos/cphotoshop.png");
 	background-repeat: no-repeat;
 	background-position: center;
 }
 .h3{
-	background-image: url("../imagenes/iconos/_c_premiere.png");
+	background-image: url("../imagenes/iconos/cpremiere.png");
 	background-repeat: no-repeat;
 	background-position: center;
 }
 .h4{
-	background-image: url("../imagenes/iconos/_d_css3.png");
+	background-image: url("../imagenes/iconos/dcss3.png");
 	background-repeat: no-repeat;
 	background-position: center;
 }
 .h5{
-	background-image: url("../imagenes/iconos/_d_html5.png");
+	background-image: url("../imagenes/iconos/dhtml5.png");
 	background-repeat: no-repeat;
 	background-position: center;
 }
 .h6{
-	background-image: url("../imagenes/iconos/_d_unity.png");
+	background-image: url("../imagenes/iconos/dunity.png");
 	background-repeat: no-repeat;
 	background-position: center;
 }
