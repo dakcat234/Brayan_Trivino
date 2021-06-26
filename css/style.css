@@ -238,7 +238,7 @@ body{
 	margin: 0px;
 	height: 50px;
 
-	background-image: url("../imagenes/Iconos/Volumen1.png");
+	background-image: url("../imagenes/iconos/Volumen1.png");
 	background-repeat: no-repeat;
 	background-size: 50px;
 	background-position:top left;
@@ -248,7 +248,7 @@ body{
 	transition-timing-function: ease-out;
 }
 .Icon1:hover{
-	background-image: url("../imagenes/Iconos/Volumen2.png");
+	background-image: url("../imagenes/iconos/Volumen2.png");
 	background-repeat: no-repeat;
 	background-size: 50px;
 	background-position:top left;
@@ -264,7 +264,7 @@ body{
 	margin: 0px;
 	height: 60px;
 
-	background-image: url("../imagenes/Iconos/Emociones1.png");
+	background-image: url("../imagenes/iconos/Emociones1.png");
 	background-repeat: no-repeat;
 	background-size: 50px;
 	background-position:top left;
@@ -274,7 +274,7 @@ body{
 	transition-timing-function: ease-out;
 }
 .Icon2:hover{
-	background-image: url("../imagenes/Iconos/Emociones2.png");
+	background-image: url("../imagenes/iconos/Emociones2.png");
 	background-repeat: no-repeat;
 	background-size: 50px;
 	background-position:top left;
@@ -290,7 +290,7 @@ body{
 	margin: 0px;
 	height: 60px;
 
-	background-image: url("../imagenes/Iconos/Up1.png");
+	background-image: url("../imagenes/iconos/Up1.png");
 	background-repeat: no-repeat;
 	background-size: 40px;
 	background-position:top left;
@@ -300,7 +300,7 @@ body{
 	transition-timing-function: ease-out;
 }
 .Icon3:hover{
-	background-image: url("../imagenes/Iconos/Up2.png");
+	background-image: url("../imagenes/iconos/Up2.png");
 	background-repeat: no-repeat;
 	background-size: 40px;
 	background-position:top left;
@@ -316,7 +316,7 @@ body{
 	margin: 0px;
 	height: 60px;
 
-	background-image: url("../imagenes/Iconos/Lista1.png");
+	background-image: url("../imagenes/iconos/Lista1.png");
 	background-repeat: no-repeat;
 	background-size: 40px;
 	background-position:top left;
@@ -326,7 +326,7 @@ body{
 	transition-timing-function: ease-out;
 }
 .Icon4:hover{
-	background-image: url("../imagenes/Iconos/Lista2.png");
+	background-image: url("../imagenes/iconos/Lista2.png");
 	background-repeat: no-repeat;
 	background-size: 40px;
 	background-position:top left;
@@ -357,32 +357,32 @@ body{
 }
 
 .h1{
-	background-image: url("../imagenes/Iconos/_c_aillustrator.png");
+	background-image: url("../imagenes/iconos/_c_aillustrator.png");
 	background-repeat: no-repeat;
 	background-position: center;
 }
 .h2{
-	background-image: url("../imagenes/Iconos/_c_photoshop.png");
+	background-image: url("../imagenes/iconos/_c_photoshop.png");
 	background-repeat: no-repeat;
 	background-position: center;
 }
 .h3{
-	background-image: url("../imagenes/Iconos/_c_premiere.png");
+	background-image: url("../imagenes/iconos/_c_premiere.png");
 	background-repeat: no-repeat;
 	background-position: center;
 }
 .h4{
-	background-image: url("../imagenes/Iconos/_d_css3.png");
+	background-image: url("../imagenes/iconos/_d_css3.png");
 	background-repeat: no-repeat;
 	background-position: center;
 }
 .h5{
-	background-image: url("../imagenes/Iconos/_d_html5.png");
+	background-image: url("../imagenes/iconos/_d_html5.png");
 	background-repeat: no-repeat;
 	background-position: center;
 }
 .h6{
-	background-image: url("../imagenes/Iconos/_d_unity.png");
+	background-image: url("../imagenes/iconos/_d_unity.png");
 	background-repeat: no-repeat;
 	background-position: center;
 }
